@@ -58,6 +58,12 @@ public class DetailsActivity extends ActionBarActivity {
         });
     }
 
+    @Override
+    public void onBackPressed() {
+        super.onBackPressed();
+        overridePendingTransition(R.anim.abc_fade_in, R.anim.abc_slide_out_top);
+    }
+
 
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {

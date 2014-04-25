@@ -1,5 +1,6 @@
 package com.appacitive.moviemania.app;
 
+import android.app.ActivityOptions;
 import android.content.Intent;
 import android.support.v7.app.ActionBarActivity;
 import android.os.Bundle;
@@ -43,7 +44,8 @@ public class MainActivity extends ActionBarActivity {
                detailsIntent.putExtra("movie_id", movieDetails.mId);
                detailsIntent.putExtra("movie_name", movieDetails.mName);
                detailsIntent.putExtra("movie_url", movieDetails.mPosterUrl);
-               startActivity(detailsIntent);
+               Bundle animation = ActivityOptions.makeCustomAnimation(getBaseContext(), R.anim.abc_slide_in_bottom, R.anim.abc_fade_out).toBundle();
+               startActivity(detailsIntent, animation);
            }
        });
     }
