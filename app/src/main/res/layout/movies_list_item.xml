@@ -28,5 +28,6 @@
         android:layout_centerHorizontal="true"
         android:layout_centerVertical="true"
         android:layout_alignTop="@+id/movie_poster"
-        android:textColor="#FF4F4F4F" />
+        android:textColor="#FF4F4F4F"
+        android:typeface="serif" />
 </RelativeLayout>

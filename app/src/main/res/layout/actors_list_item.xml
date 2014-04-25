@@ -22,5 +22,6 @@
         android:layout_toRightOf="@+id/image_actor"
         android:layout_alignBottom="@+id/image_actor"
         android:layout_margin="10dp"
-        android:textColor="#ff4f4f4f" />
+        android:textColor="#ff4f4f4f"
+        android:typeface="serif" />
 </RelativeLayout>
