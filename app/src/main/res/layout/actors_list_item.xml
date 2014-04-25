@@ -21,5 +21,6 @@
         android:layout_alignParentTop="true"
         android:layout_toRightOf="@+id/image_actor"
         android:layout_alignBottom="@+id/image_actor"
-        android:layout_margin="10dp" />
+        android:layout_margin="10dp"
+        android:textColor="#ff4f4f4f" />
 </RelativeLayout>
